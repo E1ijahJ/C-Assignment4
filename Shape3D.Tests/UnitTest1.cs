@@ -34,5 +34,21 @@ public class UnitTest1
         double expected =  2*((1*2)+(1*3)+(2*3));
         Assert.Equal(expected,rectangular.GetSurfaceArea(),2);
     }
+
+    [Fact]
+    public void ShouldTestCubeVolume()
+    {
+        Cube cube= new Cube(3);
+        double expectedVol =  Math.Pow(3,3);
+        Assert.Equal(expectedVol,cube.GetVolume(),2);
+    }
+
+    [Fact]
+    public void ShouldTestCubeSurfaceArea()
+    {
+        Cube cube= new Cube(3);
+        double expected =  6* Math.Pow(3,2);
+        Assert.Equal(expected,cube.GetSurfaceArea(),2);
+    }
 }
 
