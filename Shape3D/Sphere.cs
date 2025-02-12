@@ -12,7 +12,7 @@ namespace Shape3D.Shapes{
     }
         public override double GetVolume()
         {
-            return(4/3)* Math.PI*Math.Pow(Radius,3);
+            return(4.0/3.0) * Math.PI* Math.Pow(Radius,3);
         }
         public override double GetSurfaceArea()
         {
