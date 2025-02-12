@@ -50,5 +50,22 @@ public class UnitTest1
         double expected =  6* Math.Pow(3,2);
         Assert.Equal(expected,cube.GetSurfaceArea(),2);
     }
+
+    [Fact]
+    public void ShouldTestTriangularPrismVolume()
+    {
+        TriangularPrism triangular= new TriangularPrism(6,4,10);
+        double expectedVol =  .5*6*4*10;
+        Assert.Equal(expectedVol,triangular.GetVolume(),2);
+    }
+
+    [Fact]
+    public void ShouldTestTriangularPrismSurfaceArea()
+    {
+        TriangularPrism triangular= new TriangularPrism(6,4,10);
+        double MockHypoth = Math.Sqrt(Math.Pow(6,2)+Math.Pow(4,2));
+        double expected = (6*4)+(6*10)+(4*10)+(MockHypoth*10);
+        Assert.Equal(expected,triangular.GetSurfaceArea(),2);
+    }
 }
 
