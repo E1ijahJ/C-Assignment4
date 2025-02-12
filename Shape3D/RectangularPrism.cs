@@ -2,7 +2,9 @@ using System;
 using System.Reflection.Metadata.Ecma335;
 
 namespace Shape3D.Shapes{
-
+/// <summary>
+/// Rectangulagr prism class wihc has l w and h to calculate surface area as well as volume 
+/// </summary>
   public class RectangularPrism : Shape{
 
     public double Length{get; set;}

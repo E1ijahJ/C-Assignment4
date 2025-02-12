@@ -2,7 +2,9 @@ using System;
 using System.Reflection.Metadata.Ecma335;
 
 namespace Shape3D.Shapes{
-
+/// <summary>
+/// This is the Util class  with 3 mehtods that one give detaisl of a shape, two get the digognal woht calculation and 3 be able to create a smlaler new variant based off the orignal cubes side
+/// </summary>
 public class Utilities{
 
 public static string Details(Shape shape){

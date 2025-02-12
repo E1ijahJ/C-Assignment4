@@ -2,7 +2,9 @@ using System;
 using System.Reflection.Metadata.Ecma335;
 
 namespace Shape3D.Shapes{
-
+/// <summary>
+/// Triangular prism class that uses base height and depth to calcualte surface area and volume 
+/// </summary>
   public class TriangularPrism : Shape{
 
     public double Base{get; set;}

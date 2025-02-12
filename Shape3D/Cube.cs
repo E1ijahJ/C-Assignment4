@@ -2,7 +2,9 @@ using System;
 using System.Reflection.Metadata.Ecma335;
 
 namespace Shape3D.Shapes{
-
+/// <summary>
+/// Cube class which has jus one parameter using base to kind of pass over the necessary require ment of l w and h making sure that we keep it simple
+/// </summary>
   public class Cube : RectangularPrism{
 
     public double Side{get;}

@@ -2,7 +2,9 @@ using System;
 using System.Reflection.Metadata.Ecma335;
 
 namespace Shape3D.Shapes{
-
+/// <summary>
+/// This is the sphere  class with has two functions that have specifc formulas to calculate their volume and surface area
+/// </summary>
   public class Sphere : Shape{
 
     public double Radius{get; set;}
